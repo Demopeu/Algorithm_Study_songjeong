@@ -25,6 +25,7 @@ lst.sort()
 start, end = 1,lst[-1]-lst[0]               # lst[-1]-lst[0] 거리
 print(binary_search(start,end))
 
+# https://www.acmicpc.net/problem/2110
 # 이분 탐색 말고 풀이법이 있을 까해서 처음에는 [0]*lst[-1] 배열로 했는데 틀림
 # 두번째는 시간 초과가 나길래 도저히 못풀겟어서 인터넷 찾아봄
 # 근데 알고보니 이분 탐색해도 아슬아슬하게 되서 주석을 모두 지우고 하니까 통과됨

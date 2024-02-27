@@ -28,5 +28,6 @@ for i in lst:
     start,end = 0, N-1
     print(binary_search(start,end,i))
 
+## https://www.acmicpc.net/problem/1920
 # 이 코드의 시간 복잡도는 O(NlogN)
     # 이진 탐색은 O(logN)인데 sort 써서 O(NlogN)

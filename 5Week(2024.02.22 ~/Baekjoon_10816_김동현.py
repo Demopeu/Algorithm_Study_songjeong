@@ -19,7 +19,8 @@ lst = list(int(input()) for _ in range(K))
 start, end = 1,max(lst)
 print(binary_search(start,end))
 
-# https://www.acmicpc.net/problem/1654
+# https://www.acmicpc.net/problem/10816
+# 놀라운 사실은 이거 이분탐색으로 풀면 시간 초과남
 # 이 코드의 시간 복잡도는 O(NlogN)
     # 이진 탐색은 O(logN)인데 랜선다발에 비례함.
     # 랜선 다발을 N이라 했을 때, 전체 시간 복잡도는 O(NlogN)
