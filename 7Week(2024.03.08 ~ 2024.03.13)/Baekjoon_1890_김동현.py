@@ -17,7 +17,7 @@ for i in range(N):
         '''
         num = matrix[i][j]
         if num == 0:
-            print(check[i][j]
+            print(check[i][j])
             
         이렇게 했다가 51퍼에서 오류남
         히든 testcase에 matrix[i][j] == 0 이 있음

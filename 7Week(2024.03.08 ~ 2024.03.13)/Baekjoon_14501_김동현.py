@@ -14,6 +14,22 @@ print(lst[0])
 # https://www.acmicpc.net/problem/14501
 # 이 코드의 시간복잡도는 O(N)
 
+from collections import deque
+
+def bfs(start):
+    q = deque()
+    q.append((start, 0))
+    
+    while q:
+        vertex, benefit = q.popleft()
+
+N = int(input())
+list_ = [list(map(int, input().split())) for _ in range(N)]
+max_ = 0
+
+for i in range(N):
+    bfs()
+
 '''
 N = int(input())
 all_list = {i:list(map(int,input().split()) )for i in range(1,N+1)}
